@@ -1,87 +1,67 @@
-.logo img {
-  margin-top: 30px;
-}
-.container {
+/* Login.css */
+.login-container {
   display: flex;
-  flex-direction: column;
-  margin: auto;
-  margin-top: 0px;
-  background: white;
-  padding-bottom: 30px;
-}
-.header {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-  width: 100%;
+  justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  height: 100vh;
+  background-color: #f2f2f2;
 }
-.text {
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-  font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+
+.login-box {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  border-radius: 8px;
 }
-.underline {
-  width: 61px;
-  height: 6px;
-  background: blue;
-  border-radius: 9px;
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
-.inputs {
-  margin: 30px 20px 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
-}
-.input {
+
+.input-group {
   display: flex;
   align-items: center;
-  margin: auto;
-  width: 480px;
-  height: 80px;
-  background: #eaeaea;
-  border-radius: 6px;
+  margin-bottom: 15px;
 }
-.input img {
-  margin: 0px 30px;
+
+.input-group img {
+  width: 20px;
+  margin-right: 10px;
 }
-.input input {
-  height: 50px;
-  width: 400px;
-  background: transparent;
-  border: none;
-  outline: none;
-  color: #797979;
-  font-size: 19px;
-}
-.onclick {
+
+.input-group input {
   width: 100%;
-  max-width: 480px;
-  height: 45px;
-  background: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
   color: white;
   border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 26px;
-  margin: 20px auto 0;
-  display: block;
-}
-
-.signup {
-  font-size: 30px;
-  margin: auto;
-}
-.forgot-password {
-  margin-top: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.submit-container {
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.signup-link {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.signup-link a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
 }
