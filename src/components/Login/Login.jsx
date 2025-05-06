@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./Login.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./Login.scss";
 import user_icon from "../Assets/person.png";
 import password_icon from "../Assets/password.png";
 
@@ -10,7 +11,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     //kt dang nhap
-    if (email === "user@example.com" && password === "password123") {
+    if (email === "user@gmail.com" && password === "12345") {
       alert("Đăng nhập thành công!");
     } else {
       alert("Sai thông tin đăng nhập!");
@@ -48,7 +49,7 @@ const Login = () => {
         </form>
         <div className="signup-link">
           <span>Chưa có tài khoản? </span>
-          <a href="./signup">Đăng ký</a>
+          <a href="">dang ky</a>
         </div>
       </div>
     </div>

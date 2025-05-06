@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Signup.css";
+import "./Signup.scss";
 import user_icon from "../Assets/person.png";
 import email_icon from "../Assets/email.png";
 import password_icon from "../Assets/password.png";
@@ -46,7 +46,7 @@ const Signup = () => {
             />
           </div>
 
-          {/* Mật khẩu */}
+          {/*Mat khau*/}
           <div className="input-group">
             <img src={password_icon} alt="password" />
             <input
@@ -57,12 +57,12 @@ const Signup = () => {
             />
           </div>
 
-          {/* Xác nhận mật khẩu */}
+          {/* Mat khau lan 2 */}
           <div className="input-group">
             <img src={password_icon} alt="password" />
             <input
               type="password"
-              placeholder="Xác nhận mật khẩu"
+              placeholder="Xac nhan lai mat khau"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
             />
